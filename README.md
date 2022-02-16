@@ -259,7 +259,7 @@ export class AppModule { }
 ![output](ac.jpeg)
 
 ## OUTPUT WITH CALCULATION:
-![output](ac1.jpeg)
+
 
 ## Result:
 Thus we successfully designed the dynamic website to perform mathematical calculations using Angular Framwork.
