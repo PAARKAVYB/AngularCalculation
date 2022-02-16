@@ -259,6 +259,8 @@ export class AppModule { }
 ![output](ac.jpeg)
 
 ## OUTPUT WITH CALCULATION:
+![ac1](https://user-images.githubusercontent.com/93509383/154204368-c15b101d-e2e5-4de9-b1e4-8388ba110ca2.jpeg)
+
 
 
 ## Result:
