@@ -61,9 +61,10 @@ color: rgb(122, 190, 90);
 
 </div>
 </div>
+```
 
 ## cylindercomponent.ts:
-
+```
 import { Component } from "@angular/core";
 
 @Component({
@@ -83,9 +84,10 @@ export class CylinderComponent{
         this.volume = 22/7*this.radius**2*this.height
     }
 }
+```
 
 ## rectanglecomponent.html:
-
+```
 <style>
     h2{
 background-color: rgb(156, 197, 187);
@@ -114,9 +116,9 @@ color: rgb(62, 115, 158);
 </div>
 
 </div>
-
+```
 ## rectanglecomponent.ts:
-
+```
 import { Component } from "@angular/core";
 
 @Component({
@@ -139,9 +141,9 @@ export class RectangleComponent{
             this.area = this.length*this.breadth
     }
 }
-
+```
 ## appcomponent.css:
-
+```
 h2{
     text-align: center;
     color: rgb(17, 14, 39);
@@ -164,8 +166,9 @@ h2{
       background-color: rgb(227, 121, 241);
       margin-top: 10px;
   }
-
+```
 ## apppcomponent.html:
+```
 <div class="backgd">
 <h2>MATH CALCULATION</h2>
 <div class="container">
@@ -183,9 +186,9 @@ h2{
 </div>
 
 </div>
-
+```
 ## appcomponent.spec.ts:
-
+```
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
@@ -217,9 +220,9 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('mathcalculation app is running!');
   });
 });
-
+```
 ## appcompnent.ts:
-
+```
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -228,8 +231,9 @@ describe('AppComponent', () => {
 export class AppComponent {
   title = 'mathcalculation';
 }
-
+```
 ## appmodule.ts:
+```
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -251,10 +255,10 @@ import { RectangleComponent } from './rectangle/rectangle.component';
 export class AppModule { }
 ```
 
-OUTPUT WITHOUT CALCULATION:
+## OUTPUT WITHOUT CALCULATION:
 ![output](ac.jpeg)
 
-OUTPUT WITH CALCULATION:
+## OUTPUT WITH CALCULATION:
 ![output](ac1.jpeg)
 
 
